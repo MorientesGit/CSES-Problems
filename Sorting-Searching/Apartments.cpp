@@ -1,6 +1,12 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+/*
+	Complexity: O(nlogn + mlogm)
+	n: Numbers of applicants
+	m: Number of apartments
+*/
+
 int main() {
 	int n, m, k, data;
 	vector<int> desires;
